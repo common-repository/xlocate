@@ -1,0 +1,56 @@
+/*wrapper*/
+@import "http://fonts.googleapis.com/css?family=Lato";
+
+.xlocate-skin-aliceblue {
+    background: #f0f0f0;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+#xlocate-listing-wrapper * {
+    font-family: Lato;
+}
+
+/*search form*/
+#search-form input[type="text"],
+#search-form input[type="email"],
+#search-form input[type="url"],
+#search-form input[type="password"],
+#search-form input[type="search"],
+#search-form input[type="number"],
+#search-form select,
+#xlocate-home-search-form input[type="text"],
+#xlocate-home-search-form input[type="email"],
+#xlocate-home-search-form input[type="url"],
+#xlocate-home-search-form input[type="password"],
+#xlocate-home-search-form input[type="search"],
+#xlocate-home-search-form input[type="number"],
+#xlocate-home-search-form select {
+    /*padding: 0.35em;*/
+    /*height: 2.3em;*/
+    border: 1px solid #01BAD5;
+}
+
+#xlocate-load-more,
+#xlocate-load-more input[type="button"],
+#xlocate-load-more input[type="submit"],
+#search-form button,
+#search-form input[type="button"],
+#search-form input[type="submit"] {
+    padding: 10px 25px;
+    border-radius: 3px;
+    background: #01BAD5;
+}
+
+#xlocate-home-search-form button,
+#xlocate-home-search-form input[type="button"],
+#xlocate-home-search-form input[type="submit"] {
+    border-radius: 3px;
+    background: #01BAD5;
+}
+
+.xlocate-list {
+    /*margin-bottom: 10px;*/
+    border-bottom: 1px solid #f5f5f5;
+}

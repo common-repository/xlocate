@@ -1,0 +1,54 @@
+/*skin styles for admin*/
+table.skins ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+    width: 300px;
+}
+
+table.skins ul li img {
+    width: 100%;
+}
+
+table.skins input[type="radio"], form.skins input[type="radio"] {
+    display: none;
+}
+
+table.skins input[type="radio"] + label {
+    position: relative;
+    display: inline-block;
+    margin: -2px 10px 0 0;
+    vertical-align: middle;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+table.skins input[type="radio"]:checked + label {
+    border: 3px solid #00a0d2;
+}
+
+table.skins label span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    color: white;
+    padding: 5px 8px;
+    width: 95%;
+}
+
+/*custom thickbox styles*/
+#TB_window #TB_ajaxContent {
+    padding: 15px 15px 15px 15px;
+}
+
+#TB_ajaxContent img {
+    width: 100%;
+    height: auto;
+}
+
+.set-skin {
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}

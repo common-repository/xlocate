@@ -1,0 +1,59 @@
+#search-wrapper *{margin:2px}#search-wrapper{width:100%;padding:10px;position:relative;border-radius:5px 5px 0 0;margin-bottom:5px;background:#f5f5f5}
+#search{display:inline-block;max-width:70%}.xlocate-description h3{font-size:1rem;padding:10px 0 5px 0;margin:0 0 5px;font-weight:bold}
+a.xlocate-detail{color:#01bad5;box-shadow:none}.xlocate-description{padding:0 8px 10px 8px}
+#xlocate-estate-listing{width:30%;margin:0;float:left;height:400px}#xlocate-estate-listing p{padding:0;margin:0 0 5px}
+#map_wrapper{float:left;padding:0;margin:0;width:70%;height:400px}#map_canvas{width:100%;height:100%}
+#map_wrapper{position:relative}#xlocate-loader{display:none;left:50%;position:absolute;top:50%;z-index:50;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%)}
+.xlocate-pagination{margin-top:10px}@font-face{font-family:'fontello';src:url("../../shared/font/fontello.eot?27526776");src:url("../../shared/font/fontello.eot?27526776#iefix") format("embedded-opentype"),url("../../shared/font/fontello.woff2?27526776") format("woff2"),url("../../shared/font/fontello.woff?27526776") format("woff"),url("../../shared/font/fontello.ttf?27526776") format("truetype"),url("../../shared/font/fontello.svg?27526776#fontello") format("svg");font-weight:normal;font-style:normal}
+[class^="icon-"]:before,[class*=" icon-"]:before{font-family:"fontello";font-style:normal;font-weight:normal;speak:none;display:inline-block;text-decoration:inherit;width:1em;margin-right:.2em;text-align:center;font-variant:normal;text-transform:none;line-height:1em;margin-left:.2em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-location:before{content:'\e800'}#search-form,#xlocate-home-search-form{width:100%;display:flex;flex-direction:row}
+#xlocate-frontend-find-location,#find-location{margin-top:8px}#xlocate-frontend-find-location:before,#find-location:before{margin-left:-40px;height:40px;width:50px;font-family:"fontello";content:'\e800';background:rgba(18,14,19,0);border:0;-webkit-appearance:none;padding:12px;color:#e60000;transform:translate(-50%,-50%)}
+#xlocate-frontend-find-location:before{margin-left:-40px;height:40px;width:50px;font-family:"fontello";content:'\e800';background:rgba(18,14,19,0);border:0;-webkit-appearance:none;padding:12px;color:#e60000;transform:translate(-50%,-50%)}
+#xlocate-frontend-find-location:hover,#find-location:hover{cursor:pointer}#mobile-map-view-option{display:none}
+@media only screen and (max-width:768px){#xlocate-listing-wrapper *{margin:0}#search-form{width:100%;display:inline}
+#find-location:before{position:absolute;right:-27px;top:22px}#list-view{border-right:2px solid #fff}
+#mobile-map-view-option{display:block;width:100%;background:#000;color:#fff;text-align:center}
+#mobile-map-view-option .map-view{float:left;width:50%}#mobile-map-view-option a{color:#fff}
+#xlocate-estate-listing,#map_wrapper{width:100%}#map_wrapper{display:none}#search-form input{width:100%;margin-bottom:5px}
+#search-form select{width:100%;margin-bottom:5px}}.windows8{position:relative;width:56px;height:56px;margin:auto}
+.windows8{position:relative;width:50px;height:50px;margin:auto}.windows8 .wBall{position:absolute;width:47px;height:47px;opacity:0;transform:rotate(225deg);-o-transform:rotate(225deg);-ms-transform:rotate(225deg);-webkit-transform:rotate(225deg);-moz-transform:rotate(225deg);animation:orbit 4.5325s infinite;-o-animation:orbit 4.5325s infinite;-ms-animation:orbit 4.5325s infinite;-webkit-animation:orbit 4.5325s infinite;-moz-animation:orbit 4.5325s infinite}
+.windows8 .wBall .wInnerBall{position:absolute;width:6px;height:6px;background:black;left:0;top:0;border-radius:6px}
+.windows8 #wBall_1{animation-delay:.986s;-o-animation-delay:.986s;-ms-animation-delay:.986s;-webkit-animation-delay:.986s;-moz-animation-delay:.986s}
+.windows8 #wBall_2{animation-delay:.193s;-o-animation-delay:.193s;-ms-animation-delay:.193s;-webkit-animation-delay:.193s;-moz-animation-delay:.193s}
+.windows8 #wBall_3{animation-delay:.3965s;-o-animation-delay:.3965s;-ms-animation-delay:.3965s;-webkit-animation-delay:.3965s;-moz-animation-delay:.3965s}
+.windows8 #wBall_4{animation-delay:.5895s;-o-animation-delay:.5895s;-ms-animation-delay:.5895s;-webkit-animation-delay:.5895s;-moz-animation-delay:.5895s}
+.windows8 #wBall_5{animation-delay:.793s;-o-animation-delay:.793s;-ms-animation-delay:.793s;-webkit-animation-delay:.793s;-moz-animation-delay:.793s}
+@keyframes orbit{0%{opacity:1;z-index:99;transform:rotate(180deg);animation-timing-function:ease-out}
+7%{opacity:1;transform:rotate(300deg);animation-timing-function:linear;origin:0}30%{opacity:1;transform:rotate(410deg);animation-timing-function:ease-in-out;origin:7%}
+39%{opacity:1;transform:rotate(645deg);animation-timing-function:linear;origin:30%}
+70%{opacity:1;transform:rotate(770deg);animation-timing-function:ease-out;origin:39%}
+75%{opacity:1;transform:rotate(900deg);animation-timing-function:ease-out;origin:70%}
+76%{opacity:0;transform:rotate(900deg)}100%{opacity:0;transform:rotate(900deg)}}@-o-keyframes orbit{0%{opacity:1;z-index:99;-o-transform:rotate(180deg);-o-animation-timing-function:ease-out}
+7%{opacity:1;-o-transform:rotate(300deg);-o-animation-timing-function:linear;-o-origin:0}
+30%{opacity:1;-o-transform:rotate(410deg);-o-animation-timing-function:ease-in-out;-o-origin:7%}
+39%{opacity:1;-o-transform:rotate(645deg);-o-animation-timing-function:linear;-o-origin:30%}
+70%{opacity:1;-o-transform:rotate(770deg);-o-animation-timing-function:ease-out;-o-origin:39%}
+75%{opacity:1;-o-transform:rotate(900deg);-o-animation-timing-function:ease-out;-o-origin:70%}
+76%{opacity:0;-o-transform:rotate(900deg)}100%{opacity:0;-o-transform:rotate(900deg)}
+}@-ms-keyframes orbit{0%{opacity:1;z-index:99;-ms-transform:rotate(180deg);-ms-animation-timing-function:ease-out}
+7%{opacity:1;-ms-transform:rotate(300deg);-ms-animation-timing-function:linear;-ms-origin:0}
+30%{opacity:1;-ms-transform:rotate(410deg);-ms-animation-timing-function:ease-in-out;-ms-origin:7%}
+39%{opacity:1;-ms-transform:rotate(645deg);-ms-animation-timing-function:linear;-ms-origin:30%}
+70%{opacity:1;-ms-transform:rotate(770deg);-ms-animation-timing-function:ease-out;-ms-origin:39%}
+75%{opacity:1;-ms-transform:rotate(900deg);-ms-animation-timing-function:ease-out;-ms-origin:70%}
+76%{opacity:0;-ms-transform:rotate(900deg)}100%{opacity:0;-ms-transform:rotate(900deg)}
+}@-webkit-keyframes orbit{0%{opacity:1;z-index:99;-webkit-transform:rotate(180deg);-webkit-animation-timing-function:ease-out}
+7%{opacity:1;-webkit-transform:rotate(300deg);-webkit-animation-timing-function:linear;-webkit-origin:0}
+30%{opacity:1;-webkit-transform:rotate(410deg);-webkit-animation-timing-function:ease-in-out;-webkit-origin:7%}
+39%{opacity:1;-webkit-transform:rotate(645deg);-webkit-animation-timing-function:linear;-webkit-origin:30%}
+70%{opacity:1;-webkit-transform:rotate(770deg);-webkit-animation-timing-function:ease-out;-webkit-origin:39%}
+75%{opacity:1;-webkit-transform:rotate(900deg);-webkit-animation-timing-function:ease-out;-webkit-origin:70%}
+76%{opacity:0;-webkit-transform:rotate(900deg)}100%{opacity:0;-webkit-transform:rotate(900deg)}
+}@-moz-keyframes orbit{0%{opacity:1;z-index:99;-moz-transform:rotate(180deg);-moz-animation-timing-function:ease-out}
+7%{opacity:1;-moz-transform:rotate(300deg);-moz-animation-timing-function:linear;-moz-origin:0}
+30%{opacity:1;-moz-transform:rotate(410deg);-moz-animation-timing-function:ease-in-out;-moz-origin:7%}
+39%{opacity:1;-moz-transform:rotate(645deg);-moz-animation-timing-function:linear;-moz-origin:30%}
+70%{opacity:1;-moz-transform:rotate(770deg);-moz-animation-timing-function:ease-out;-moz-origin:39%}
+75%{opacity:1;-moz-transform:rotate(900deg);-moz-animation-timing-function:ease-out;-moz-origin:70%}
+76%{opacity:0;-moz-transform:rotate(900deg)}100%{opacity:0;-moz-transform:rotate(900deg)}
+}
